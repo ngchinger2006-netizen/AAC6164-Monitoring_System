@@ -26,3 +26,7 @@ AAC6164_Monitoring_System/
 
 ### How to Run
 (To be updated)
+
+# AAC6164-Monitoring_System
+Linux-Based Monitoring, Analytics, and Reporting System Using Python
+
