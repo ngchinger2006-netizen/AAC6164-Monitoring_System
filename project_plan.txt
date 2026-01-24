@@ -1,0 +1,30 @@
+======AAC6164 Project Plan (Student A)======
+
+Module: Directory Monitoring System
+
+Objectives:
+
+1. Monitor a directory for file changes (create, delete, modify)
+2. Extract and log file metadata
+3. Generate structured logs
+
+Implementation Plan:
+
+1. Setup and basic structure
+2. Implement file creation detection
+3. Add deletion and modification detection
+4. Complete metadata extraction
+5. Testing and debugging
+6. Integration with other modules
+
+Tools to Use:
+
+- Linux command: ls, stat
+- Python libraries: os, pathlib, time
+- Storage: CSV/TXT logs
+
+Expected Output:
+
+- Log file with all directory changes
+- File metadata records
+- Timestamps for all events
