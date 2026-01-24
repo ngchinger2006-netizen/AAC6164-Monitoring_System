@@ -1,0 +1,38 @@
+
+============================================================
+Directory Monitoring Session Started
+Time: 2026-01-24 18:06:10
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+============================================================
+
+
+============================================================
+Directory Monitoring Session Started
+Time: 2026-01-24 18:13:06
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+============================================================
+
+
+[FILE CREATED] 2026-01-24 18:13:36
+  Filename: test4.log
+  Path: ../test_directory/test4.log
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-24 18:13:35
+  Accessed: 2026-01-24 18:13:35
+  Created: 2026-01-24 18:13:35
+------------------------------------------------------------
+
+[FILE CREATED] 2026-01-24 18:13:51
+  Filename: test5.txt
+  Path: ../test_directory/test5.txt
+  Size: 7 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-24 18:13:50
+  Accessed: 2026-01-24 18:13:50
+  Created: 2026-01-24 18:13:50
+------------------------------------------------------------

@@ -1,0 +1,48 @@
+Testing Report - Directory Monitoring Module
+============================================
+
+Student: NG CHING ER
+
+Test summary:
+
+- Directory scanning successfully implemented
+- File creation detection working correctly
+- Metadata extraction using os.stat() functional
+- Logging system operational
+
+Test Cases Executed:
+
+1. Initial directory scan
+   - Result: Successfully detected existing files
+
+2. File creation detection
+   - Created: test3.txt, test4.txt, test5.txt
+   - Result: All new files detected within 5 seconds
+
+3. Metadata extraction
+   - Verified: filename, size, permissions, timestamps
+   - Result: All metadata correctly extracted
+
+4. Log file generation
+   - Location: logs/directory_changes.log
+   - Result: Detailed logs created succefully
+
+Linux Commands Used:
+
+- ls: List directory contents
+- stat: Display file metadata
+- touch: Create empty files
+- echo: Create files with content
+
+Python Libraries Used:
+
+- os: File system operations
+- time: Timing and delays
+- pathlib: Path handling
+- datetime: Timestamp formatting
+
+Next steps:
+
+1. Implement file deletion detection
+2. Implement file modifucation detection
+3. Add more robust error handling
