@@ -1,0 +1,36 @@
+SYSTEM PERFORMANCE SUMMARY REPORT
+==================================================
+Log source: logs/system_metrics.csv
+Total samples: 6
+
+CPU SUMMARY
+------------------------------
+Average CPU (%): 22.37
+Max CPU (%): 46.7
+CPU spikes >= 80%: 0
+
+MEMORY SUMMARY
+------------------------------
+Average Memory (%): 64.11
+Max Memory (%): 65.3
+
+DISK SUMMARY
+------------------------------
+Latest Disk (%): 47
+Max Disk (%): 47.0
+
+UPTIME
+------------------------------
+Latest uptime (s): 5527
+
+TOP 3 PROCESSES BY CPU (latest)
+------------------------------
+1) gnome-shell        1911  9.0
+2) Isolated Web Co    5791  5.4
+3) code               4098  4.7
+
+TOP 3 PROCESSES BY MEMORY (latest)
+------------------------------
+1) Isolated Web Co    5791 18.1
+2) firefox            5083 10.1
+3) code               5027  9.9
