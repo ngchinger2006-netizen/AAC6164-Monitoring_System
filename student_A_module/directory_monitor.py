@@ -123,20 +123,28 @@ def log_file_creation(metadata):
 	print(f"Group UID: {metadata['group_gid']}")
 	print(f"Created: {metadata['created_time_str']}")
 
-def log_file_deletion(filename, timestamp):
+def log_file_deletion(metadata):
 	"""Log file deletion event"""
 	log_message = f"""
 [FILE DELETED] {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-   Filename: {filename}
-   Detected at: {timestamp}
+   Filename: {metadata['filename']}
+   Path: {metadata['filepath']}
+   File Type: {metadata['file_type']}
+   Size: {metadata['size_bytes']} bytes
+   Permission: {metadata['permissions']}
+   Owner UID: {metadata['owner_uid']}
+   Group UID: {metadata['group_gid']}
+   Modified: {metadata['modified_time_str']}
+   Accessed: {metadata['access_time_str']}
+   Detected at: {metadata['created_time_str']}
 {'-'*70}
 """
 
 	with open(LOG_FILE, 'a') as f:
 		f.write(log_message)
 
-	print(f"x DELETED: {filename}")
-	print(f"Detected at: {timestamp}")
+	print(f"x DELETED: {metadata['filename']}")
+	print(f"Detected at: {metadata['created_time_str']}")
 
 def log_file_modification(filename, old_meta, new_meta):
 	"""Log file modification with before/after values"""
@@ -157,8 +165,16 @@ def log_file_modification(filename, old_meta, new_meta):
 	if changes:
 		log_message = f"""
 [FILE MODIFIED] {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-   Filename: {filename}
-   Current Permissions: {new_meta['permissions']}
+   Filename: {new_meta['filename']}
+   Path: {new_meta['filepath']}
+   File Type: {new_meta['file_type']}
+   Size: {new_meta['size_bytes']} bytes
+   Permissions: {new_meta['permissions']}
+   Owner UID: {new_meta['owner_uid']}
+   Group UID: {new_meta['group_gid']}
+   Modified: {new_meta['modified_time_str']}
+   Accessed: {new_meta['access_time_str']}
+   Created: {new_meta['created_time_str']}
    Changes:
 """
 		log_message += "\n".join(changes)
@@ -194,9 +210,9 @@ def detect_file_deletion(old_snapshot, new_snapshot):
 
 	if deleted_files:
 		print(f"\n Found {len(deleted_files)} deleted file(s)!")
-		timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 		for filename in deleted_files:
-			log_file_deletion(filename, timestamp)
+			old_meta = old_snapshot[filename]
+			log_file_deletion(old_meta)
 
 	return len(deleted_files)
 

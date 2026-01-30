@@ -406,3 +406,186 @@ Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
    Filename: test11.txt
    Detected at: 2026-01-30 23:11:02
 ----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 23:48:04
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 23:50:06
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE CREATED] 2026-01-30 23:50:11
+  Filename: test4.txt
+  Path: ../test_directory/test4.txt
+  File Type: Regular file
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-30 23:50:09
+  Accessed: 2026-01-30 23:50:09
+  Created: 2026-01-30 23:50:09
+----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 23:55:16
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE MODIFIED] 2026-01-30 23:55:46
+   Filename: test4.txt
+   Path: ../test_directory/test4.txt
+   File Type: Regular file
+   Size: 6 bytes
+   Permissions: 664
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-30 23:55:42
+   Accessed: 2026-01-30 23:50:09
+   Created: 2026-01-30 23:55:42
+   Changes:
+Size: 9 bytes --> 6 bytes
+Modified time: 2026-01-30 23:50:42 --> 2026-01-30 23:55:42
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 23:56:06
+   Filename: test4.txt
+   Path: ../test_directory/test4.txt
+   File Type: Regular file
+   Size: 6 bytes
+   Permissions: 777
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-30 23:55:42
+   Accessed: 2026-01-30 23:50:09
+   Created: 2026-01-30 23:56:03
+   Changes:
+Permissions: 664 --> 777
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 23:56:26
+   Filename: test4.txt
+   Path: ../test_directory/test4.txt
+   File Type: Regular file
+   Size: 9 bytes
+   Permissions: 777
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-30 23:56:24
+   Accessed: 2026-01-30 23:50:09
+   Created: 2026-01-30 23:56:24
+   Changes:
+Size: 6 bytes --> 9 bytes
+Modified time: 2026-01-30 23:55:42 --> 2026-01-30 23:56:24
+----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-31 00:08:26
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE MODIFIED] 2026-01-31 00:08:41
+   Filename: test5.txt
+   Path: ../test_directory/test5.txt
+   File Type: Regular file
+   Size: 21 bytes
+   Permissions: 664
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 00:08:41
+   Accessed: 2026-01-31 00:08:41
+   Created: 2026-01-31 00:08:41
+   Changes:
+Modified time: 2026-01-24 18:14:23 --> 2026-01-31 00:08:41
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-31 00:08:56
+   Filename: test5.txt
+   Path: ../test_directory/test5.txt
+   File Type: Regular file
+   Size: 6 bytes
+   Permissions: 664
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 00:08:51
+   Accessed: 2026-01-31 00:08:41
+   Created: 2026-01-31 00:08:51
+   Changes:
+Size: 21 bytes --> 6 bytes
+Modified time: 2026-01-31 00:08:41 --> 2026-01-31 00:08:51
+----------------------------------------------------------------------
+
+[FILE CREATED] 2026-01-31 00:09:06
+  Filename: test4.txt
+  Path: ../test_directory/test4.txt
+  File Type: Regular file
+  Size: 9 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-31 00:09:06
+  Accessed: 2026-01-31 00:09:06
+  Created: 2026-01-31 00:09:06
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-31 00:09:26
+   Filename: test5.txt
+   Path: ../test_directory/test5.txt
+   File Type: Regular file
+   Size: 10 bytes
+   Permissions: 664
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 00:09:23
+   Accessed: 2026-01-31 00:08:41
+   Created: 2026-01-31 00:09:23
+   Changes:
+Size: 6 bytes --> 10 bytes
+Modified time: 2026-01-31 00:08:51 --> 2026-01-31 00:09:23
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-31 00:09:46
+   Filename: test5.txt
+   Path: ../test_directory/test5.txt
+   File Type: Regular file
+   Size: 10 bytes
+   Permissions: 777
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 00:09:23
+   Accessed: 2026-01-31 00:08:41
+   Created: 2026-01-31 00:09:42
+   Changes:
+Permissions: 664 --> 777
+----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-31 00:14:06
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE DELETED] 2026-01-31 00:14:16
+   Filename: test5.txt
+   Path: ../test_directory/test5.txt
+   File Type: Regular file
+   Size: 10 bytes
+   Permission: 777
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 00:09:23
+   Accessed: 2026-01-31 00:08:41
+   Detected at: 2026-01-31 00:09:42
+----------------------------------------------------------------------
