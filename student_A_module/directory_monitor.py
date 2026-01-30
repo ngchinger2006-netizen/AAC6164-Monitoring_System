@@ -60,9 +60,20 @@ def get_file_metadata(filepath):
 	try:
 		stat_info = os.stat(filepath)
 
+		# Determine file type
+		if os.path.isfile(filepath):
+			file_type = "Regular file"
+		elif os.path.isdir(filepath):
+			file_type = "Directory"
+		elif os.path.islink(filepath):
+			file_type = "Symbolic link"
+		else:
+			file_type = "Other"
+
 		metadata = {
 			'filename': os.path.basename(filepath),
 			'filepath': filepath,
+			'file_type': file_type,
 			'size_bytes': stat_info.st_size,
 			'permissions': oct(stat_info.st_mode)[-3:],
 			'owner_uid': stat_info.st_uid,
@@ -87,6 +98,7 @@ def log_file_creation(metadata):
 [FILE CREATED] {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
   Filename: {metadata['filename']}
   Path: {metadata['filepath']}
+  File Type: {metadata['file_type']}
   Size: {metadata['size_bytes']} bytes
   Permissions: {metadata['permissions']}
   Owner UID: {metadata['owner_uid']}
@@ -103,7 +115,13 @@ def log_file_creation(metadata):
 		f.write(log_message)
 
 	# Print to console
-	print(f"/ Detected new file: {metadata['filename']} ({metadata['size_bytes']} bytes)")
+	print(f"/ Detected new file: {metadata['filename']}")
+	print(f"File Type: {metadata['file_type']}")
+	print(f"Size: {metadata['size_bytes']} bytes")
+	print(f"Permission: {metadata['permissions']}")
+	print(f"Owner UID: {metadata['owner_uid']}")
+	print(f"Group UID: {metadata['group_gid']}")
+	print(f"Created: {metadata['created_time_str']}")
 
 def log_file_deletion(filename, timestamp):
 	"""Log file deletion event"""
@@ -118,6 +136,7 @@ def log_file_deletion(filename, timestamp):
 		f.write(log_message)
 
 	print(f"x DELETED: {filename}")
+	print(f"Detected at: {timestamp}")
 
 def log_file_modification(filename, old_meta, new_meta):
 	"""Log file modification with before/after values"""
@@ -139,6 +158,7 @@ def log_file_modification(filename, old_meta, new_meta):
 		log_message = f"""
 [FILE MODIFIED] {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
    Filename: {filename}
+   Current Permissions: {new_meta['permissions']}
    Changes:
 """
 		log_message += "\n".join(changes)
@@ -148,6 +168,8 @@ def log_file_modification(filename, old_meta, new_meta):
 			f.write(log_message)
 
 		print(f"MODIFIED: {filename}")
+		print(f"Current Permissions: {old_meta['permissions']} --> {new_meta['permissions']}")
+		print(f"Modified time: {old_meta['modified_time_str']} --> {new_meta['modified_time_str']}")
 		for change in changes:
 			print(f" {change.strip()}")
 

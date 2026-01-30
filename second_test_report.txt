@@ -11,7 +11,7 @@ Test Summary:
 Test Cases Executed:
 
 1. File Creation Detection
-   - Created: test_creation.txt, batch4.txt, batch5.txt, batch6.txt
+   - Created: test_creation.txt, batch4.txt, batch5.txt, batch6.txt, test2_creation.txt, test3.txt, test10.txt
    - Result: All new files detected immediately
    - Metadata: Complete extraction verified
 
@@ -22,7 +22,7 @@ Test Cases Executed:
    - Result: All modifications detected and logged with old to new values
 
 3. File Deletion Detection:
-   - Deleted: batch3.txt, batch5.txt
+   - Deleted: batch3.txt, batch5.txt, test2_creation.txt, test3.txt
    - Result: Deletions detected and logged with timestamp
 
 Verification Methods:
