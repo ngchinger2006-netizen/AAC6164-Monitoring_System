@@ -3,7 +3,7 @@ SYSTEM PERFORMANCE SUMMARY REPORT
 
 Log source: logs/system_metrics.csv
 Time range: N/A -> N/A
-Total samples: 7
+Total samples: 13
 
 CPU SUMMARY
 -----------
