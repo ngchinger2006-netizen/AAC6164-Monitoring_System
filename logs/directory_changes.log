@@ -36,3 +36,203 @@ Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
   Accessed: 2026-01-24 18:13:50
   Created: 2026-01-24 18:13:50
 ------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:32:03
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:37:47
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:43:07
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:45:24
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:49:36
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:55:05
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 13:58:00
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 14:04:21
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-25 14:13:21
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 15:40:44
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 15:53:13
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE CREATED] 2026-01-30 15:53:28
+  Filename: test_creation.txt
+  Path: ../test_directory/test_creation.txt
+  Size: 16 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-30 15:53:23
+  Accessed: 2026-01-30 15:53:23
+  Created: 2026-01-30 15:53:23
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 15:53:58
+   Filename: test_creation.txt
+   Changes:
+Size: 16 bytes --> 21 bytes
+Modified time: 2026-01-30 15:53:23 --> 2026-01-30 15:53:55
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 15:54:18
+   Filename: test_creation.txt
+   Changes:
+Permissions: 664 --> 644
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 15:54:34
+   Filename: test_creation.txt
+   Changes:
+Permissions: 644 --> 777
+----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 16:10:25
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE CREATED] 2026-01-30 16:10:45
+  Filename: batch3.txt
+  Path: ../test_directory/batch3.txt
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-30 16:10:41
+  Accessed: 2026-01-30 16:10:41
+  Created: 2026-01-30 16:10:41
+----------------------------------------------------------------------
+
+[FILE DELETED] 2026-01-30 16:11:00
+   Filename: batch3.txt
+   Detected at: 2026-01-30 16:11:00
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 16:11:20
+   Filename: batch1.txt
+   Changes:
+Size: 0 bytes --> 9 bytes
+Modified time: 2026-01-30 15:55:09 --> 2026-01-30 16:11:20
+----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-30 16:54:11
+Monitoring: /home/ngchinger/AAC6164_Monitoring_System/test_directory
+======================================================================
+
+
+[FILE CREATED] 2026-01-30 16:54:21
+  Filename: batch5.txt
+  Path: ../test_directory/batch5.txt
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-30 16:54:20
+  Accessed: 2026-01-30 16:54:20
+  Created: 2026-01-30 16:54:20
+----------------------------------------------------------------------
+
+[FILE CREATED] 2026-01-30 16:54:21
+  Filename: batch6.txt
+  Path: ../test_directory/batch6.txt
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-30 16:54:20
+  Accessed: 2026-01-30 16:54:20
+  Created: 2026-01-30 16:54:20
+----------------------------------------------------------------------
+
+[FILE CREATED] 2026-01-30 16:54:21
+  Filename: batch4.txt
+  Path: ../test_directory/batch4.txt
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-30 16:54:20
+  Accessed: 2026-01-30 16:54:20
+  Created: 2026-01-30 16:54:20
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 16:54:51
+   Filename: batch4.txt
+   Changes:
+Size: 0 bytes --> 12 bytes
+Modified time: 2026-01-30 16:54:20 --> 2026-01-30 16:54:47
+----------------------------------------------------------------------
+
+[FILE DELETED] 2026-01-30 16:55:06
+   Filename: batch5.txt
+   Detected at: 2026-01-30 16:55:06
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-30 16:55:16
+   Filename: batch6.txt
+   Changes:
+Permissions: 664 --> 777
+----------------------------------------------------------------------

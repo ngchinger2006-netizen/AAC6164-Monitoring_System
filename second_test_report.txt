@@ -1,0 +1,82 @@
+===Directory Monitoring Module===
+
+Test Summary:
+
+- File creation detection implmented and tested
+- File deletion detection implemented and tested
+- File modification detection implemented and tested
+- All metadata changes tracked correctly
+- Before and after values logged for modifications
+
+Test Cases Executed:
+
+1. File Creation Detection
+   - Created: test_creation.txt, batch4.txt, batch5.txt, batch6.txt
+   - Result: All new files detected immediately
+   - Metadata: Complete extraction verified
+
+2. File Modification Detection:
+   - Test: Size change (16--> 21 bytes) 
+   - Test: Permission change (664 --> 644) / (664 --> 777)
+   - Test: Timestamp changes
+   - Result: All modifications detected and logged with old to new values
+
+3. File Deletion Detection:
+   - Deleted: batch3.txt, batch5.txt
+   - Result: Deletions detected and logged with timestamp
+
+Verification Methods:
+
+- Used stat command to verify metadata accuracy
+- Used ls -l to verify permissions
+- Compared Python output with Linux command output
+- All data matched correctly
+
+Code Implementation:
+
+Functions added:
+
+- detect_file_deletion(): Detects removed files
+- detect_file)_modification(): Compares file metadata
+- log_file_deletion(): Records deletion events
+- log_file_modification(): Records changes with before and after values
+
+Modified functions:
+
+- get_directory_snapshot(): Now returns full metadata
+- main(): Integrated all three detection types
+
+Linux Commands Used:
+
+- stat: Verify file metadata
+- ls -l: Check permissions and size
+- chmod: Test permission changes
+- rm: Test file deletion
+- echo >>: Test file modification
+
+Python Commands Used:
+
+- Set operations for file comparison
+- Dictionary metadata storage
+- Timestamp comparison with tolerance
+- Error handling for file operations
+
+Test Results:
+
+/ Creation detection accurate
+/ Deletion detection accurate
+/ Modification detection accurate
+  - Size changes: /
+  - Permission changes: /
+  - Timestamp changes: /
+
+Performance:
+
+- Check interval: 5 seconds
+- Detection latency: < 5 seconds
+
+Next Steps:
+
+- Integration with Student B module which is system performance
+- Combined reporting
+- Final testing and optimization
