@@ -1,0 +1,93 @@
+======================================================================
+AAC6164 Integrated Monitoring Report
+======================================================================
+Generated: 2026-01-31 16:46:39
+
+======================================================================
+DIRECTORY MONITORING SUMMARY (Student A)
+======================================================================
+
+Total file creations detected: 2
+Total file modifications detected: 3
+Total file deletions detected: 1
+
+Recent events (Last 50 lines):
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+[FILE MODIFIED] 2026-01-31 16:30:16
+   Filename: demo.txt
+   Path: ../test_directory/demo.txt
+   File Type: Regular file
+   Size: 21 bytes
+   Permissions: 777
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 16:30:12
+   Accessed: 2026-01-31 16:29:33
+   Created: 2026-01-31 16:30:12
+   Changes:
+Size: 12 bytes --> 21 bytes
+Modified time: 2026-01-31 16:29:59 --> 2026-01-31 16:30:12
+----------------------------------------------------------------------
+
+[FILE DELETED] 2026-01-31 16:30:31
+   Filename: demo.txt
+   Path: ../test_directory/demo.txt
+   File Type: Regular file
+   Size: 21 bytes
+   Permission: 777
+   Owner UID: 1000
+   Group UID: 1000
+   Modified: 2026-01-31 16:30:12
+   Accessed: 2026-01-31 16:29:33
+   Detected at: 2026-01-31 16:30:12
+----------------------------------------------------------------------
+
+======================================================================
+Directory Monitoring Session Started
+Time: 2026-01-31 16:46:25
+Monitoring: /home/ngchinger/test_directory
+======================================================================
+
+
+[FILE CREATED] 2026-01-31 16:46:30
+  Filename: file1.txt
+  Path: ../test_directory/file1.txt
+  File Type: Regular file
+  Size: 0 bytes
+  Permissions: 664
+  Owner UID: 1000
+  Group GID: 1000
+  Modified: 2026-01-31 16:46:30
+  Accessed: 2026-01-31 16:46:30
+  Created: 2026-01-31 16:46:30
+----------------------------------------------------------------------
+
+======================================================================
+SYSTEM PERFORMANCE SUMMARY (Student B)
+======================================================================
+
+Total measurements: 9
+Average CPU usage: 2.94%
+Average Memory usage: 39.75%
+Average Disk usage: 56.00%
+
+Peak CPU usage: 10.00%
+Peak Memory usage: 39.84%
+
+Recent measurements (Last 10):
+----------------------------------------------------------------------
+2026-01-31 15:07:17: CPU=10.0% MEM=39.66% DISK=56%
+2026-01-31 15:07:28: CPU=0.0% MEM=39.66% DISK=56%
+2026-01-31 15:07:38: CPU=4.0% MEM=39.68% DISK=56%
+2026-01-31 15:07:51: CPU=0.0% MEM=39.76% DISK=56%
+2026-01-31 15:08:01: CPU=4.8% MEM=39.76% DISK=56%
+2026-01-31 15:08:11: CPU=0.0% MEM=39.79% DISK=56%
+2026-01-31 15:08:22: CPU=4.0% MEM=39.79% DISK=56%
+2026-01-31 15:08:32: CPU=3.7% MEM=39.84% DISK=56%
+2026-01-31 15:08:43: CPU=0.0% MEM=39.84% DISK=56%
+
+======================================================================
+END OF REPORT
+======================================================================
