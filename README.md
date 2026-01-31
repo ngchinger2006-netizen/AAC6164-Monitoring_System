@@ -24,9 +24,7 @@ AAC6164_Monitoring_System/
 - Language: Python 3
 - Tools: Git, GitHub
 
-### How to Run
-(To be updated)
-
-# AAC6164-Monitoring_System
-Linux-Based Monitoring, Analytics, and Reporting System Using Python
+### How to Execute
+- Run: Python3
+- Stop: Ctrl + C
 
